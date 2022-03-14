@@ -1,0 +1,90 @@
+body {
+  height: 100vh;
+}
+
+.general-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  align-items: center;
+}
+
+.logo {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  left: 28%;
+  top: 7%;
+}
+
+.laptop-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.laptop {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.dog-bottom {
+  position: relative;
+  bottom: 0;
+  height: 50%;
+}
+
+h1 {
+  font-family: "Road Rage", cursive;
+  color: #7abc48;
+  font-size: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+h2 {
+  background-color: #7abc48;
+  color: white;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media (min-width: 40rem) {
+  .logo {
+    width: 30%;
+    height: auto;
+    left: 35%;
+    top: 7%;
+  }
+
+  .laptop {
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 8rem;
+    margin: 0;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  .dog-bottom {
+    height: 100%;
+  }
+}
